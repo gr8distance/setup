@@ -7,6 +7,7 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 exec $SHELL -l
 
+source ./bash_profile
+
+rbenv install -l > lists
 rbenv install -v 2.2.3
-
-
