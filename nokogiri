@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo yum install epel-release -y
+sudo yum install libxml2-devel libxslt-devel
+
+gem install nokogiri -- --use-system-libraries=true --with-xml2-include=/usr/include/libxml2/
+
