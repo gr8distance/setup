@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo yum install ImageMagick -y
+sudo yum install libjpeg-devel libpng-devel -y
+sudo yum install ImageMagick-devel -y
+gem i rmagick
