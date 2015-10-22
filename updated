@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rbenv rehash
+rbenv global 2.2.3
