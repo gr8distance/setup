@@ -9,5 +9,5 @@ exec $SHELL -l
 
 source ./bash_profile
 
-rbenv install -l > lists
-rbenv install -v 2.3.0
+#rbenv install -l > lists
+#rbenv install -v 2.3.0
