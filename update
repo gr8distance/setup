@@ -5,7 +5,7 @@
 
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-exec $SHELL -l
+#exec $SHELL -l
 
 #source ./bash_profile
 
