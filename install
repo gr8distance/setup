@@ -1,6 +1,10 @@
 #!/bin/bash
 
-sudo yum install -y wget curl vim openssl zlib gcc make zlib-devel openssl-devel git
+sudo yum install -y wget curl vim openssl zlib gcc make zlib-devel openssl-devel
+git clone https://github.com/suzaku183/vim
+git clone https://github.com/suzaku183/nodejs
+git clone https://github.com/suzaku183/ruby_update
+
 cd /usr/local/src
 sudo wget https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
 sudo tar zxvf ruby-2.3.1.tar.gz
@@ -11,3 +15,11 @@ sudo make install
 export PATH=/usr/local/ruby/bin:$PATH
 echo ruby -v
 echo "・ω・"
+
+~/vim/bundle
+~/nodejs/install
+~/nodejs/coffee
+~/ruby_update/nokogiri
+~/ruby_update/rails
+
+vim
