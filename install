@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo yum install -y wget curl vim openssl zlib gcc make zlib-devel openssl-devel
+sudo yum install -y wget curl vim openssl zlib gcc make zlib-devel openssl-devel sqlite3 mysql-server
 git clone https://github.com/suzaku183/vim
 git clone https://github.com/suzaku183/nodejs
 git clone https://github.com/suzaku183/ruby_update
