@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo yum install -y wget curl vim openssl zlib gcc make zlib-devel openssl-devel git
+cd /usr/local/src
+sudo wget https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
+sudo tar zxvf ruby-2.3.1.tar.gz
+cd ruby-2.3.1
+sudo ./configure --prefix=/usr/local/ruby
+sudo make
+sudo make install
