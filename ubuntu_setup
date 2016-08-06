@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install -y vim libsqlite3-dev apache2 apache2-dev build-essential zlib1g-dev libssl-dev libreadline-dev libyaml-dev libcurl4-openssl-dev apache2 apache2-dev mysql
+sudo apt-get install -y vim nodejs libsqlite3-dev apache2 apache2-dev build-essential zlib1g-dev libssl-dev libreadline-dev libyaml-dev libcurl4-openssl-dev apache2 apache2-dev mysql
 sudo apt-get install -y ruby ruby-dev
 sudo apt-get install -y golang
 sudo apt-get install -y passenger
