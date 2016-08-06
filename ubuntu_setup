@@ -3,6 +3,7 @@
 sudo apt-get install -y build-essential zlib1g-dev libssl-dev libreadline-dev libyaml-dev libcurl4-openssl-dev apache2 apache2-dev mysql
 sudo apt-get install -y ruby ruby-dev
 sudo apt-get install -y golang
+sudo apt-get install -y passenger
 sudo gem i nokogiri
 sudo gem i rails
 sudo passenger-install-apache2-module --auto
