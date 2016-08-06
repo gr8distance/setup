@@ -6,4 +6,17 @@ sudo apt-get install -y golang
 sudo apt-get install -y passenger
 sudo gem i nokogiri
 sudo gem i rails
-sudo passenger-install-apache2-module --auto
+
+cd /var/www/
+sudo chown ug html
+cd html
+git clone https://github.com/suzaku183/seasons
+cd seasons
+./first_deploy
+
+cd
+git clone https://github.com/suzaku183/vim
+./vim/bundle
+
+cd /etc/apache2
+vim
