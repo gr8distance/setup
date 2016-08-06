@@ -4,8 +4,7 @@ sudo apt-get install -y vim libsqlite3-dev apache2 apache2-dev build-essential z
 sudo apt-get install -y ruby ruby-dev
 sudo apt-get install -y golang
 sudo apt-get install -y passenger
-sudo gem i nokogiri
-sudo gem i rails
+sudo apt-get install -y nokogiri rails
 
 cd /var/www/
 sudo chown ug html
