@@ -1,4 +1,21 @@
 #!/bin/bash
 
-brew install git cask vim emacs tmux
+brew install cask vim emacs tmux
 brew cask install virtualbox vagrant angry-ip-scanner macdown sitesucker colors imageoptim google-chrome  vlc
+
+ssh-keygen
+
+git clone https://github.com/suzaku183/ruby_update
+git clone https://github.com/suzaku183/vim
+git clone https://github.com/suzaku183/emacs
+
+mkdir ~/dev
+mkdir -p ~/os/centos
+
+sudo gem i sass haml html2haml rails &
+
+vagrant box add centos7 https://github.com/tommy-muehle/puppet-vagrant-boxes/releases/download/1.1.0/centos-7.0-x86_64.box
+cd ~/os/centos
+vagrant init centos7
+vagrant up
+
