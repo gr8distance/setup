@@ -1,0 +1,4 @@
+#!/bin/bash
+
+brew install git cask vim emacs tmux
+brew cask install virtualbox vagrant angry-ip-scanner macdown sitesucker colors imageoptim google-chrome  vlc
